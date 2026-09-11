@@ -12,7 +12,7 @@ jobs:
       - name: Extract project
         run: |
           unzip -o DeepImageScanner-project.zip -d extracted
-          cp -a extracted/DeepImageScanner-project/. .
+          cp -a extracted/. .
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
