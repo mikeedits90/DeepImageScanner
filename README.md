@@ -1,0 +1,3 @@
+# DeepImageScanner
+
+Android image scanner.
